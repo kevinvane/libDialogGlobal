@@ -1,0 +1,3 @@
+include ':progresslibrary'
+include ':sample'
+rootProject.name = "AndroidDialogProgress"

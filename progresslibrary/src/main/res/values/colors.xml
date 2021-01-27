@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="myProgressBarColor">#FFFFFF</color>
+    <color name="myProgressDialogBackground">#3e3e3e</color>
+
+</resources>
