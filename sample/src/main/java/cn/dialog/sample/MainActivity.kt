@@ -2,6 +2,7 @@ package cn.dialog.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import cn.dialog.progress.DialogGlobal
 import cn.dialog.progress.DialogProgress
 
 class MainActivity : AppCompatActivity() {
@@ -9,11 +10,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        DialogProgress.wait(this,null,true)?.show()
-
+        // val dialog = DialogProgress.wait(this,null,true)
+        // dialog?.show()
+        // dialog?.dismiss()
         // DialogProgress.wait(this,"Hello World")?.show()
         //
         // val builder = DialogProgress.builder(this,"Hello World")
 
+        DialogGlobal.show(this,"请等待")
+        // DialogGlobal.dismiss()
     }
 }

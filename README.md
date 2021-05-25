@@ -5,11 +5,18 @@
 
 ## 调用示例
 ```
-DialogProgress.wait(this,null,true)?.show()
+# 创建Dialog
+val dialog = DialogProgress.wait(this,null,true)
+dialog?.show()
+dialog?.dismiss()
 
 DialogProgress.wait(this,"Hello World")?.show()
 
 val builder = DialogProgress.builder(this,"Hello World")
+
+# 全局显示和关闭，调用方便
+DialogGlobal.show(this,"请等待")
+DialogGlobal.dismiss()
 ```
 
 ## 引入
@@ -25,6 +32,6 @@ allprojects {
 2. 加入依赖
 ```
 dependencies {
-    implementation 'com.gitee.kevinvane:AndroidDialogProgress:1.0.0'
+    implementation 'com.gitee.kevinvane:AndroidDialogProgress:2.0.0'
 }
 ```
