@@ -1,4 +1,4 @@
-# AndroidDialogProgress
+# DialogGlobal
 
 
 为了方便使用DialogProgress，做了此工具类。
