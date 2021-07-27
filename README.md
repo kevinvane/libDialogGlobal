@@ -35,6 +35,6 @@ allprojects {
 2. 加入依赖
 ```
 dependencies {
-    implementation 'com.gitee.kevinvane:DialogGlobal:3.0.0'
+    implementation 'com.gitee.kevinvane:dialog-global:3.0.0'
 }
 ```
