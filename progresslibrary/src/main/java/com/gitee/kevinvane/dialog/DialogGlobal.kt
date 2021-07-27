@@ -1,4 +1,4 @@
-package cn.dialog.progress
+package com.gitee.kevinvane.dialog
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
@@ -9,7 +9,7 @@ class DialogGlobal {
 
         private var dialog: AlertDialog? = null
         fun show(context: Context?, message: String?){
-            dialog = DialogProgress.wait(context,message)
+            dialog = DialogProgress.wait(context, message)
             dialog?.show()
         }
 

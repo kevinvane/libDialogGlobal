@@ -1,4 +1,4 @@
-package cn.dialog.progress
+package com.gitee.kevinvane.dialog
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -33,7 +33,7 @@ class DialogProgress {
                     tvMessage.text = msg
                 }
 
-                return AlertDialog.Builder(context,R.style.MyProgressDialog)
+                return AlertDialog.Builder(context, R.style.MyProgressDialog)
                     .setView(view)
                     .setCancelable(false)
             }

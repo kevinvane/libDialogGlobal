@@ -2,8 +2,7 @@ package cn.dialog.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import cn.dialog.progress.DialogGlobal
-import cn.dialog.progress.DialogProgress
+import com.gitee.kevinvane.dialog.DialogGlobal
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
